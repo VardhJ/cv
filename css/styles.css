@@ -1,12 +1,12 @@
   .bar {
     margin: 20px;
-    background: #FEC260;
+    background: #AC3B61;
     line-height: 18px;
     height: 25px;
     font-size: 18px;
   }
   body {
-    background-color: #F0E5CF;
+    background-color: #EEE2DC;
     font-family: Verdana, sans-serif;
   }
   hr {
@@ -18,10 +18,10 @@
     width: 5%;
   }
   h1 {
-    color: #630A10;
+    color: #123C69;
   }
   h3{
-    color: #630A10;
+    color: #11324D;
     font-size: 20px;
   }
 
@@ -37,7 +37,7 @@
 }
 
 .tables tr:nth-child(even){background-color: #f2f2f2;}
-.tables tr:nth-child(odd){background-color: #E8D0B3;}
+.tables tr:nth-child(odd){background-color: #EDC7B7;}
 
 .tables tr:hover {background-color: #ddd;}
 
@@ -45,7 +45,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #11324D;
   color: white;
 }
 
@@ -61,7 +61,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 27%;
     height:270px;
     border-radius: 50%;
   }
