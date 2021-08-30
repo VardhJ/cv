@@ -1,9 +1,12 @@
-  .bar {
+.bar {
     margin: 20px;
     background: #AC3B61;
     line-height: 18px;
     height: 25px;
     font-size: 18px;
+  }
+  .profileheader{
+    background-color: blue;
   }
   body {
     background-color: #EEE2DC;
