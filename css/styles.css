@@ -7,14 +7,15 @@
     font-size: 18px;
   }
   .bg-img{
-    background-image: url(../images/IMG_2250.jpg);
+    background-image: url(../images/sky.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .heading {
-    font-family: 'AvenirRoman';
+    font-family: 'Sacramento', bold;
     text-rendering: optimizeLegibility;
-    font-weight: 800;
+    font-weight: 900;
+    background: #0000009c;
     text-align: center;
     font-size: 45px;
   }
@@ -22,6 +23,11 @@
     margin-right: 0;
     margin-left: 0;
     padding: 40px;
+  }
+  .intro {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
   }
   .profileheader2{
     background-color: #FA8072;
@@ -36,7 +42,7 @@
     margin-right: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    text-indent: 5px;
+    text-indent: 8px;
   }
   .profileheader4{
     background-color: #6E85B2;
@@ -48,7 +54,7 @@
   }
   body {
     background-color: #EEE2DC;
-    font-family: Verdana, sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
   }
   hr {
@@ -60,11 +66,13 @@
     width: 5%;
   }
   h1 {
-    color: #123C69;
+    color: white;
+    font-family: 'Sacramento',cursive;
   }
   h3{
+    font-family: 'Montserrat', sans-serif;
     color: #11324D;
-    font-size: 20px;
+    font-size: 27px;
   }
   .profilepic {
     display: block;
@@ -76,21 +84,10 @@
   }
   /*Use ID selectors for images, different styles. ID priority>h1. ID can only be used for single element */
 
-  .intro {
-    text-align: center;
-    font-size: 20px;
-  }
-  .spans{
-    text-decoration: underline;
-  }
-
-
-
 .tables {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  padding: 10px;
 }
 
 .tables td, .tables th {
