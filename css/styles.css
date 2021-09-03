@@ -25,7 +25,7 @@
     font-family: 'Sacramento', bold;
     text-rendering: optimizeLegibility;
     font-weight: 900;
-    background: #0000009c;
+    /*background: #0000009c;*/
     text-align: center;
     font-size: 5rem;
   }
