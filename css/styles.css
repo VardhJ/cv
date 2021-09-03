@@ -10,13 +10,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 27%;
-    height:16rem;
+    width: 25%;
+    height:190%;
     border-radius: 50%;
   }
   .bg-img{
     background-image: url(../images/sky1.jpg);
-    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
   }
   .heading {
