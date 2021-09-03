@@ -6,6 +6,14 @@
     height: 25px;
     font-size: 18px;
   }
+  .profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    height:16rem;
+    border-radius: 50%;
+  }
   .bg-img{
     background-image: url(../images/sky1.jpg);
     background-repeat: no-repeat;
@@ -79,14 +87,7 @@
     font-size: 35px;
     text-align: center;
   }
-  .profilepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 27%;
-    height:265px;
-    border-radius: 50%;
-  }
+
   /*Use ID selectors for images, different styles. ID priority>h1. ID can only be used for single element */
 
 .tables {
