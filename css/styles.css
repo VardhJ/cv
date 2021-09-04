@@ -1,10 +1,8 @@
-.bar {
+.bar1 {
     margin: 0;
     margin-bottom: 20px;
     background: #5C527F;
-    line-height: 18px;
     height: 25px;
-    font-size: 18px;
   }
   .profilepic {
     display: block;
@@ -36,57 +34,72 @@
   }
   .intro {
     text-align: center;
-    font-size: 1.5rem;
+    margin: auto;
+    width:70%;
+    line-height: 2;
+    font-size: 1.3rem;
   }
   .profileheader2{
     background-color: #FA8072;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   .education{
     background-color: #9DDAC6;
     padding: 1% 5% 6% 5%;
     font-size: 18px;
+    border: solid  #0000009c;
     margin: auto;
-    width:50%;
+    width: 50%;
     text-align: left;
   }
   .experience{
     background-color: #6E85B2;
     padding: 1% 5% 6% 5%;
     font-size: 18px;
+    border: solid  #0000009c;
     margin: auto;
     width:50%;
     text-align: center;
   }
   .icons1{
     float:left;
-    padding: 20px;
+    padding: 2%;
+    padding-right: 10%;
   }
-
   body {
     background-color: #EEE2DC;
     font-family: 'Merriweather', serif;
     margin: 0;
   }
+  a:hover{
+    color: #EAF6F6;
+  }
   hr {
-    background-color: #F0E5CF;
+    border: dotted grey 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 50px auto;
+    /*background-color: #F0E5CF;
     border: none;
-    border-top: 5px dotted;
+    border-top: 5px dotted grey;
     border-width: 6px;
-    border-color: grey;
-    width: 5%;
+    width: 5%;*/
   }
   h1 {
     color: white;
     font-family: 'Sacramento',cursive;
   }
+  h2 {
+    color: #630A10;
+    font-family: 'Merriweather', serif;
+  }
   h3{
     font-family: 'Montserrat', sans-serif;
     color: #11324D;
-    font-size: 35px;
+    font-size: 200%;
     text-align: center;
   }
 
@@ -117,7 +130,60 @@
   background-color: #11324D;
   color: white;
 }
+.contact_button {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #6E85B2);
+   background-image: -moz-linear-gradient(top, #3D94F6, #6E85B2);
+   background-image: -ms-linear-gradient(top, #3D94F6, #6E85B2);
+   background-image: -o-linear-gradient(top, #3D94F6, #6E85B2);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #6E85B2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
 
+.contact_button:hover {
+   border: solid #337FED 1px;
+   background: #6E85B2;
+   background-image: -webkit-linear-gradient(top, #6E85B2, #3D94F6);
+   background-image: -moz-linear-gradient(top, #6E85B2, #3D94F6);
+   background-image: -ms-linear-gradient(top, #6E85B2, #3D94F6);
+   background-image: -o-linear-gradient(top, #6E85B2, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #6E85B2, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+  }
+  .contact{
+    background-color: #8FC1D4;
+    padding: 1% 5% 6% 5%;
+    font-size: 150%;
+    border: solid  #0000009c;
+    margin: auto;
+    width:50%;
+    text-align: left;
+  }
+  .footer{
+    background: #5C527F;
+    height: 1%;
+    padding:0.1%;
+    font-size: 90%;
+  }
   /*
   img {
     border-radius: 50%;
