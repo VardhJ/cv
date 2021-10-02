@@ -4,32 +4,168 @@
     <meta charset="utf-8"><!-- utf-8 includes all kinds of symbols and emojis-->
     <title>Vardhaman Jain's Site</title>
 
-    <!--FAVICON:-->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <!-- External CSS for styling-->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstyles.css">
+
+    <!--FAVICON:-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
     <!-- Embedding fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
-    <div class="bar1">
-    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <!--<body style="background-color: #F0E5CF";-->  <!-- background color: CSS-->
-    <!-- between the quotes put the image address in img src=, alt text to display-->
-    <!-- Alternative: save photo in this folder as vardh.png and then img src="vardh.png"-->
-    <div class="bg-img">
-      <div class="profileheader1">
-        <img class="profilepic" src="images/vardh.jpeg" alt="Vardhaman profile pic" />
-        <h1 class="heading">I'm Vardhaman Jain</h1><!-- em:emphasis, strong:bold-->
-        <p class="intro"><em>A student at SIT, Pune.</em></p>
+    <!-- Optional JavaScript for Bootstrap -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
+    <div class="container-fluid">
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          Vardhaman Jain
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <br /><br />
+
+      <!-- Grid layouts: -->
+      <div class="title">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="profile">
+              <strong><h1 class="heading">VARDHAMAN JAIN</h1></strong><!-- em:emphasis, strong:bold-->
+              <p class="intro">Full-Stack Web Developer</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="profilepic" src="images/vardh.jpeg" alt="Vardhaman profile pic" />
+          </div>
+        </div>
       </div>
+      <br /><br />
+
+      <!-- Education: -->
+      <div class="education">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="edutitle">
+              <strong><h1>EDUCATION</h1></strong>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="eduinfo">
+              <ul class="timeline">
+				        <li>
+					        <a href="http://www.lilavatibaipodarschool.com/">Lilavatibai Podar Primary School</a>
+					        <a class="float-right">2008-2016</a>
+					        <p>Completed my primary education in an ISC board school.</p>
+				        </li>
+				        <li>
+					        <a href="http://www.lilavatibaipodarschool.com/">Lilavatibai Podar High School</a>
+					        <a class="float-right">2016-2020</a>
+					        <p>Took PCM and Computer Science and completed my secondary education in the same ISC board school.</p>
+				        </li>
+				        <li>
+					        <a href="https://sitpune.edu.in/">Symbiosis Institute of Technology</a>
+					        <a class="float-right">2020-2024</a>
+					        <p>Pursuing BTech in Computer Science and Engineering at SIT, Pune.</p>
+				        </li>
+			        </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+
+      <!-- Skills: -->
+      <div class="skills">
+        <br />
+        <div class="row">
+          <div class="col-lg-12">
+            <strong><h1>SKILLS</h1></strong>
+            <br />
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%"  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <p class="skilltext">
+                    Web Development
+                  </p>
+              </div>
+            </div><br />
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <p class="skilltext">
+                  Python
+                </p>
+              </div>
+            </div><br />
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <p class="skilltext">
+                  Bug Bounty
+                </p>
+              </div>
+            </div><br />
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <p class="skilltext">
+                  C++
+                </p>
+              </div>
+            </div><br />
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <p class="skilltext">
+                  Photography
+                </p>
+              </div>
+            </div><br />
+          </div>
+        </div>
+      </div>
+
+
     </div>
+
+
+
+
+    <!--
     <br />
     <div class="profileheader2">
       <p class="intro">I am a computer science student, pursuing my BTech degree at SIT with a keen interest in Full-Stack Web Development.</p>
       <!-- For hyperlinks:    For redirect to new tab use target="_blank"-->
+
+      <!--
       <br />
       <strong><center><a class="intro" href="https://www.linkedin.com/in/vardhaman-jain-4b8611201/" target="_blank">Linkedin </a></strong></center>
     </div>
@@ -55,6 +191,7 @@
       </p>
 
       <!-- Hyperlink to hobbies.html i.e sunset pic on new webpage:-->
+      <!--
     </div>
     <hr>
     <div class="experience">
@@ -62,6 +199,7 @@
       <img src="images/experience.png" alt="experience-img" height="150" /><br /><br />
       <!-- Tables:-->
 
+<!--
       <table class="tables">
         <thead>
           <tr>
@@ -80,6 +218,7 @@
       </table>
       <br /><br />
       <!-- Tables Challenge:-->
+      <!--
       <h3>Skills</h3>
       <img src="images/skills.png" alt="skills-img" height="150" /><br /><br />
       <table class="tables">
@@ -96,6 +235,7 @@
     <hr>
 
     <!-- Forms: Contact me-->
+    <!--
     <p>
       <center>
         <a href="contact-me.html" class="contact_button">CONTACT ME</a>
